@@ -1,0 +1,144 @@
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+mark {
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.edu {
+    margin: auto
+}
+
+  header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #c3c3c3;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  #about {
+    display: flex;
+  }
+
+  #about div {
+    margin: auto;
+  }
+
+  #about div p {
+    font-size: x-large;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+    text-decoration-thickness: 3px;
+    text-decoration-style: dotted;
+  }
+  
+  #about img {
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  #about p {
+    max-width: 500px;
+    margin: 0;
+    text-align: justify;
+  }
+  
+  #about a img {
+    margin-right: 10px;
+  }
+
+  #experience {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+
+  #education {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  #education:first-child {
+    margin: auto;
+  }
+
+  #experience li {
+    margin-bottom: 10px;
+  }
+  
+  #projects li {
+    margin-bottom: 10px;
+  }
+  
+  #projects li a {
+    color: #1a1a1a;
+  }
+  
+  #projects li a:hover {
+    color: #c3c3c3;
+  }
+
+  #skills progress {
+    width: 100%;
+  }
+  
